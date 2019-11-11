@@ -446,6 +446,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1072037448 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1128643648694092, guid: 8b85504305abe0347af40a6b1cc12ba3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1318019735}
+--- !u!114 &1072037451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1072037448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 227461547, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 0}
+  showGUI: 1
+  offsetX: 0
+  offsetY: 0
 --- !u!1001 &1148416846
 Prefab:
   m_ObjectHideFlags: 0
@@ -581,6 +601,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114948377289106634, guid: 8b85504305abe0347af40a6b1cc12ba3,
+        type: 2}
+      propertyPath: m_SpawnPrefabs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4097782627273192, guid: 8b85504305abe0347af40a6b1cc12ba3, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -613,6 +638,24 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 114948377289106634, guid: 8b85504305abe0347af40a6b1cc12ba3,
+        type: 2}
+      propertyPath: m_SpawnPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 1241947320355084, guid: 1a90993e9ae035f42885247ed0ec4a10,
+        type: 2}
+    - target: {fileID: 114948377289106634, guid: 8b85504305abe0347af40a6b1cc12ba3,
+        type: 2}
+      propertyPath: m_SpawnPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 1524428382102448, guid: 9f8052fb5481bad4ca869422df52d8c1,
+        type: 2}
+    - target: {fileID: 114948377289106634, guid: 8b85504305abe0347af40a6b1cc12ba3,
+        type: 2}
+      propertyPath: m_SpawnPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 1560730898078350, guid: a540484c169d3164bb34debf989be37a,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b85504305abe0347af40a6b1cc12ba3, type: 2}
   m_IsPrefabAsset: 0
