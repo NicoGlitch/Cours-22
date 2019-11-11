@@ -98,6 +98,7 @@ public class PlayerController : NetworkBehaviour {
     [ClientRpc]
     public void RpcDie()
     {
+        print("hello");
         hasControl = false;
         characterController.enabled = false;
         Instantiate(deathParticleSystemObject, gameObject.transform.position, gameObject.transform.rotation);

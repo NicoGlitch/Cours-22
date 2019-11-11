@@ -11,7 +11,8 @@ public class SpawnManager : NetworkBehaviour {
     public GameObject BlueSide;
     // Use this for initialization
     void Start () {
-       
+        CmdSpawnManager();
+        CmdSpawnOscillator();
     }
 	
 	[Command]

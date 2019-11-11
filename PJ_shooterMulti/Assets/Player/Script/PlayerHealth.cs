@@ -26,13 +26,17 @@ public class PlayerHealth : NetworkBehaviour, Damagable {
         if(from != null)
         {
         TeamManager fromteamManager = from.GetComponent<TeamManager>();
-            if(scoreDisplayer != null)
+            if(fromteamManager != null)
+            {
+if(scoreDisplayer != null)
             {
                 if(fromteamManager.GetTeam() != teamManager.GetTeam())
                 {
                     scoreDisplayer.RpcAddKill(fromteamManager.GetTeam());
                 }
             }
+            }
+            
 
        
         }
